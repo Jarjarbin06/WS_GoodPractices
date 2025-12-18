@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print_first(int *array)
+static void print_first(int *array)
 {
     printf("first = %d\n", array[0]);
 }

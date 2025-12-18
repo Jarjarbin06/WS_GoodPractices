@@ -3,7 +3,7 @@
 #define EXIT_SUCCESS 0
 #define EXIT_ERROR 84
 
-int mult2(int n)
+static int mult2(int n)
 {
     return (n * 2);
 }

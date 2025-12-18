@@ -4,7 +4,7 @@
 #define EXIT_SUCCESS 0
 #define EXIT_ERROR 84
 
-int *create_tab(int size)
+static int *create_tab(int size)
 {
     int *tab = NULL;
     int idx = 0;

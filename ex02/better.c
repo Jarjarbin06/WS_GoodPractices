@@ -3,7 +3,7 @@
 #define EXIT_SUCCESS 0
 #define EXIT_ERROR 84
 
-int length(char *string)
+static int length(char *string)
 {
     int idx = 0;
 

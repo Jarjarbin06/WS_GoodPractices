@@ -3,7 +3,7 @@
 #define EXIT_SUCCESS 0
 #define EXIT_ERROR 84
 
-int addition(int a, int b)
+static int addition(int a, int b)
 {
     int result = a + b;
 
