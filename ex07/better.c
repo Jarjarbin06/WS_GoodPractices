@@ -10,9 +10,8 @@ static int *create_tab(int size)
 
     if (!tab)
         return NULL;
-    for (int idx = 0; idx < size; idx++) {
+    for (int idx = 0; idx < size; idx++)
         tab[idx] = idx;
-    }
     return tab;
 }
 
@@ -26,9 +25,8 @@ int main()
     tab = realloc(tab, 6 * sizeof(int));
     if (!tab)
         return EXIT_ERROR;
-    for (int idx = 0; idx < 6; idx++) {
+    for (int idx = 0; idx < 6; idx++)
         printf("%d ", tab[idx]);
-    }
     printf("\n");
     free(tab);
     return EXIT_SUCCESS;
