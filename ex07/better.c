@@ -23,8 +23,9 @@ int main()
 
     if (!tab)
         return EXIT_ERROR;
-    /* result of realloc is ignored, possible leak or invalid pointer use */
     tab = realloc(tab, 6 * sizeof(int));
+    if (!tab)
+        return EXIT_ERROR;
     for (int idx = 0; idx < 6; idx++) {
         printf("%d ", tab[idx]);
     }
