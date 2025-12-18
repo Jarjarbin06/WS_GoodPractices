@@ -20,4 +20,3 @@ int main(void)
     printf("Result: %d\n", r);
     return EXIT_SUCCESS;
 }
-

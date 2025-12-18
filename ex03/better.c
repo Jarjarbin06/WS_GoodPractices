@@ -16,4 +16,3 @@ int main()
     printf("%d\n", y);
     return EXIT_SUCCESS;
 }
-

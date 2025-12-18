@@ -20,4 +20,3 @@ int main()
     printf("len = %d\n", len);
     return 0;
 }
-
