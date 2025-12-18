@@ -5,7 +5,7 @@
 #define EXIT_SUCCESS 0
 #define EXIT_ERROR 84
 
-char *make_message(const char *name)
+static char *make_message(const char *name)
 {
     char *buffer = malloc(sizeof(char) * (strlen("Hello ") + strlen(name) + 1));
 
