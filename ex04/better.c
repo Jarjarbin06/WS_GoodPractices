@@ -27,5 +27,6 @@ int main()
         printf("%d ", tab[idx]);
     }
     printf("\n");
+    free(tab);
     return EXIT_SUCCESS;
 }
